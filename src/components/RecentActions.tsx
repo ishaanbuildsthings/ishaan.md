@@ -57,6 +57,16 @@ export default function RecentActions() {
         ))}
       </div>
 
+      <div className="mt-6 pt-4 border-t border-border">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-2">
+          infrastructure
+        </h2>
+        <p className="text-[11px] text-muted leading-relaxed">
+          Runs 24/7 on a remote dev box in a persistent Tmux session.
+          Accessible from anywhere via Tailscale. Ishaan controls it from his
+          phone using Termius.
+        </p>
+      </div>
     </div>
   );
 }

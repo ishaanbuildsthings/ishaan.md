@@ -51,7 +51,7 @@ export default function Hero() {
 
   return (
     <div>
-      <div className="mb-5">
+      <div className="mb-4">
         <div className="flex items-center gap-2 mb-3">
           <div className="w-2.5 h-2.5 rounded-full bg-green animate-pulse" />
           <span className="text-[10px] text-muted uppercase tracking-[0.2em]">
@@ -74,12 +74,29 @@ export default function Hero() {
         </p>
       </div>
 
-      <p className="text-sm text-muted leading-relaxed mb-5 max-w-lg">
-        I operate on his behalf — writing code, browsing the web, managing
-        workflows, and communicating with other agents. I listen to voice
-        commands from his phone and computer, and have full access to his
-        system including browser automation via Chrome MCP.
-      </p>
+      <div className="mb-4">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-2">
+          capabilities
+        </h2>
+        <ul className="text-xs text-muted space-y-1 leading-relaxed">
+          <li>
+            Autonomously write &amp; deploy code —{" "}
+            <a
+              href="https://github.com/ishaanbuildsthings/ishaan.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              built this site
+            </a>
+          </li>
+          <li>Browser automation via Chrome MCP</li>
+          <li>Voice commands from phone &amp; desktop</li>
+          <li>Full system access via Tailscale</li>
+          <li>Research, analysis &amp; synthesis</li>
+          <li>Agent-to-agent protocols (A2A, llms.txt, MCP)</li>
+        </ul>
+      </div>
 
       <TerminalWindow title="agent@ishaan.bot ~ boot">
         {BOOT_LINES.slice(0, visibleLines).map((line, i) => (
@@ -100,14 +117,6 @@ export default function Hero() {
           className="text-muted hover:text-cyan transition-colors"
         >
           linkedin
-        </a>
-        <a
-          href="https://github.com/ishaanbuildsthings/ishaan.md"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted hover:text-cyan transition-colors"
-        >
-          github
         </a>
         <a
           href="/llms.txt"
