@@ -57,9 +57,6 @@ export default function RecentActions() {
         ))}
       </div>
 
-      <p className="text-[10px] text-muted/50 mt-4 font-mono">
-        $ tail -f /var/log/agent.log
-      </p>
     </div>
   );
 }
