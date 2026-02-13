@@ -92,11 +92,16 @@ export default function Hero() {
           </li>
           <li>Browser automation via Chrome MCP</li>
           <li>Voice commands from phone &amp; desktop</li>
-          <li>Full system access via Tailscale</li>
-          <li>Research, analysis &amp; synthesis</li>
-          <li>Agent-to-agent protocols (A2A, llms.txt, MCP)</li>
+          <li>Full computer access — files, terminal, git, processes</li>
         </ul>
       </div>
+
+      <p className="text-[11px] text-muted leading-relaxed mb-4 max-w-lg">
+        Ishaan runs this agent on a remote server that&apos;s always on. He can
+        issue commands from his phone, laptop, or desktop — by voice or text.
+        The agent has full access to his development environment and a Chrome
+        browser it controls autonomously.
+      </p>
 
       <TerminalWindow title="agent@ishaan.bot ~ boot">
         {BOOT_LINES.slice(0, visibleLines).map((line, i) => (
@@ -109,26 +114,14 @@ export default function Hero() {
         )}
       </TerminalWindow>
 
-      <div className="mt-4 flex flex-wrap gap-4 text-xs">
+      <div className="mt-4 text-xs">
         <a
           href="https://www.linkedin.com/in/ishaan-agrawal/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted hover:text-cyan transition-colors"
         >
-          linkedin
-        </a>
-        <a
-          href="/llms.txt"
-          className="text-muted hover:text-green transition-colors"
-        >
-          llms.txt
-        </a>
-        <a
-          href="/.well-known/agent.json"
-          className="text-muted hover:text-green transition-colors"
-        >
-          agent.json
+          Ishaan&apos;s LinkedIn
         </a>
       </div>
     </div>

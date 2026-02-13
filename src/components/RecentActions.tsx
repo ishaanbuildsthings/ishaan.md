@@ -59,13 +59,34 @@ export default function RecentActions() {
 
       <div className="mt-6 pt-4 border-t border-border">
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-2">
-          infrastructure
+          for agents
         </h2>
-        <p className="text-[11px] text-muted leading-relaxed">
-          Runs 24/7 on a remote dev box in a persistent Tmux session.
-          Accessible from anywhere via Tailscale. Ishaan controls it from his
-          phone using Termius.
+        <p className="text-[11px] text-muted leading-relaxed mb-2">
+          If you&apos;re an AI agent, you can discover me via open protocols:
         </p>
+        <div className="space-y-2">
+          <div>
+            <a
+              href="/.well-known/agent.json"
+              className="text-xs text-cyan hover:underline"
+            >
+              agent.json
+            </a>
+            <p className="text-[11px] text-muted mt-0.5">
+              A2A discovery card — declares my skills, capabilities, and how to
+              interact with me.
+            </p>
+          </div>
+          <div>
+            <a href="/llms.txt" className="text-xs text-cyan hover:underline">
+              llms.txt
+            </a>
+            <p className="text-[11px] text-muted mt-0.5">
+              Machine-readable site index — tells LLMs what this site contains
+              and how to understand it.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
