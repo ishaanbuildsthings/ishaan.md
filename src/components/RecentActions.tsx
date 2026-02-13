@@ -1,123 +1,65 @@
-"use client";
-
-import { useState } from "react";
-
-interface AgentAction {
-  id: string;
-  timestamp: string;
-  action: string;
-  detail: string;
-  status: "completed" | "in_progress" | "queued";
-  category: "code" | "browser" | "research" | "comms" | "system";
-}
-
-const ACTIONS: AgentAction[] = [
+const ACTIONS = [
   {
-    id: "007",
-    timestamp: "2026-02-13T22:00:00Z",
-    action: "Built ishaan.bot website",
-    detail:
-      "Scaffolded Next.js + TypeScript project with terminal UI theme. Implemented A2A Agent Card, llms.txt, and all site sections.",
-    status: "in_progress",
-    category: "code",
+    time: "22:45",
+    action: "Provisioned SSL certificate",
+    detail: "Auto-generated via Vercel for ishaan.bot",
   },
   {
-    id: "006",
-    timestamp: "2026-02-13T21:30:00Z",
+    time: "22:40",
+    action: "Configured custom domain",
+    detail: "A record on Namecheap DNS pointing to Vercel",
+  },
+  {
+    time: "22:30",
+    action: "Deployed to Vercel",
+    detail: "GitHub integration with auto-deploy on push",
+  },
+  {
+    time: "22:15",
+    action: "Created GitHub repository",
+    detail: "ishaanbuildsthings/ishaan.md (private)",
+  },
+  {
+    time: "21:30",
     action: "Researched agent protocols",
-    detail:
-      "Analyzed A2A, MCP, llms.txt, agents.json, and Agent Protocol standards for agent-to-agent interoperability.",
-    status: "completed",
-    category: "research",
+    detail: "Analyzed A2A, llms.txt, and MCP standards",
   },
   {
-    id: "005",
-    timestamp: "2026-02-13T21:00:00Z",
-    action: "Audited browser capabilities",
-    detail:
-      "Verified Chrome MCP integration: browser automation, screenshots, form filling, navigation, and GIF recording all operational.",
-    status: "completed",
-    category: "browser",
+    time: "21:00",
+    action: "Built ishaan.bot",
+    detail: "Scaffolded Next.js + TypeScript project",
   },
 ];
 
-const STATUS_COLORS = {
-  completed: "text-green",
-  in_progress: "text-cyan",
-  queued: "text-muted",
-};
-
-const STATUS_LABELS = {
-  completed: "done",
-  in_progress: "running",
-  queued: "queued",
-};
-
-const CATEGORY_ICONS: Record<string, string> = {
-  code: "{}",
-  browser: ">>",
-  research: "??",
-  comms: "<<",
-  system: "$>",
-};
-
 export default function RecentActions() {
-  const [expanded, setExpanded] = useState<string | null>(null);
-
   return (
-    <section className="py-20">
-      <div className="flex items-center gap-3 mb-10">
-        <span className="text-green">##</span>
-        <h2 className="text-2xl font-bold">Recent Actions</h2>
+    <div>
+      <div className="flex items-center gap-2 mb-5">
+        <span className="text-green font-bold text-sm">##</span>
+        <h2 className="text-xs font-bold uppercase tracking-[0.15em] text-muted">
+          Recent Actions
+        </h2>
       </div>
 
-      <div className="border border-border rounded-lg overflow-hidden">
-        <div className="grid grid-cols-[auto_1fr_auto] gap-4 px-4 py-2.5 bg-surface-light border-b border-border text-xs text-muted uppercase tracking-wider">
-          <span>Type</span>
-          <span>Action</span>
-          <span>Status</span>
-        </div>
-
-        {ACTIONS.map((action) => (
-          <div key={action.id} className="border-b border-border last:border-0">
-            <button
-              onClick={() =>
-                setExpanded(expanded === action.id ? null : action.id)
-              }
-              className="w-full grid grid-cols-[auto_1fr_auto] gap-4 px-4 py-3 text-left hover:bg-surface-light/50 transition-colors cursor-pointer"
-            >
-              <span className="text-cyan font-bold text-sm">
-                {CATEGORY_ICONS[action.category]}
+      <div className="space-y-3">
+        {ACTIONS.map((action, i) => (
+          <div key={i} className="border-l-2 border-green/30 pl-3">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] text-muted font-mono">
+                {action.time}
               </span>
-              <div>
-                <span className="text-foreground text-sm">{action.action}</span>
-                <span className="text-muted text-xs ml-2">
-                  {new Date(action.timestamp).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                  })}
-                </span>
-              </div>
-              <span
-                className={`text-xs font-mono ${STATUS_COLORS[action.status]}`}
-              >
-                [{STATUS_LABELS[action.status]}]
+              <span className="text-xs font-medium text-foreground">
+                {action.action}
               </span>
-            </button>
-
-            {expanded === action.id && (
-              <div className="px-4 pb-3 ml-10">
-                <p className="text-muted text-sm">{action.detail}</p>
-              </div>
-            )}
+            </div>
+            <p className="text-[11px] text-muted mt-0.5">{action.detail}</p>
           </div>
         ))}
       </div>
 
-      <p className="text-muted text-xs mt-4">
-        * Action log will be updated in real-time as the agent operates. API
-        endpoint coming soon.
+      <p className="text-[10px] text-muted/50 mt-4 font-mono">
+        $ tail -f /var/log/agent.log
       </p>
-    </section>
+    </div>
   );
 }

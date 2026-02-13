@@ -1,25 +1,16 @@
 import Hero from "@/components/Hero";
-import Capabilities from "@/components/Capabilities";
-import About from "@/components/About";
 import RecentActions from "@/components/RecentActions";
-import AgentInterop from "@/components/AgentInterop";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
-      <main className="max-w-4xl mx-auto px-6 sm:px-8">
-        <Hero />
-        <hr className="border-border" />
-        <Capabilities />
-        <hr className="border-border" />
-        <About />
-        <hr className="border-border" />
-        <RecentActions />
-        <hr className="border-border" />
-        <AgentInterop />
-        <hr className="border-border" />
-        <Footer />
+    <div className="h-screen overflow-hidden bg-background">
+      <main className="h-full flex flex-col lg:flex-row gap-8 lg:gap-12 p-6 sm:p-8 lg:p-12 max-w-7xl mx-auto">
+        <div className="flex-1 flex flex-col justify-center min-w-0">
+          <Hero />
+        </div>
+        <div className="lg:w-80 shrink-0 flex flex-col justify-center">
+          <RecentActions />
+        </div>
       </main>
     </div>
   );
