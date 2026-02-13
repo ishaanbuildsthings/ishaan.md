@@ -65,13 +65,13 @@ export default function AgentInterop() {
         ))}
       </div>
 
-      <TerminalWindow title="curl https://ishaan.md/.well-known/agent.json" className="mt-8">
+      <TerminalWindow title="curl https://ishaan.bot/.well-known/agent.json" className="mt-8">
         <pre className="text-xs text-muted overflow-x-auto">
           <span className="text-cyan">{"{"}</span>
           {"\n"}
           {"  "}<span className="text-green">&quot;name&quot;</span>: <span className="text-foreground">&quot;Ishaan&apos;s Agent&quot;</span>,{"\n"}
           {"  "}<span className="text-green">&quot;description&quot;</span>: <span className="text-foreground">&quot;Autonomous AI agent for Ishaan Agrawal&quot;</span>,{"\n"}
-          {"  "}<span className="text-green">&quot;url&quot;</span>: <span className="text-foreground">&quot;https://ishaan.md&quot;</span>,{"\n"}
+          {"  "}<span className="text-green">&quot;url&quot;</span>: <span className="text-foreground">&quot;https://ishaan.bot&quot;</span>,{"\n"}
           {"  "}<span className="text-green">&quot;capabilities&quot;</span>: <span className="text-cyan">{"{ "}</span><span className="text-foreground">...</span><span className="text-cyan">{" }"}</span>,{"\n"}
           {"  "}<span className="text-green">&quot;skills&quot;</span>: <span className="text-cyan">[</span> <span className="text-foreground">6 items</span> <span className="text-cyan">]</span>{"\n"}
           <span className="text-cyan">{"}"}</span>

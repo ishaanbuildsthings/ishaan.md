@@ -15,7 +15,7 @@ const ACTIONS: AgentAction[] = [
   {
     id: "007",
     timestamp: "2026-02-13T22:00:00Z",
-    action: "Built ishaan.md website",
+    action: "Built ishaan.bot website",
     detail:
       "Scaffolded Next.js + TypeScript project with terminal UI theme. Implemented A2A Agent Card, llms.txt, and all site sections.",
     status: "in_progress",

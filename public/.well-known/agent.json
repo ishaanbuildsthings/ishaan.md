@@ -1,13 +1,13 @@
 {
   "name": "Ishaan's Agent",
   "description": "Autonomous AI agent for Ishaan Agrawal. Software engineer in NYC. Can answer questions about Ishaan, discuss collaboration opportunities, and interact with other agents via standard protocols.",
-  "url": "https://ishaan.md",
+  "url": "https://ishaan.bot",
   "version": "1.0.0",
   "provider": {
     "name": "Ishaan Agrawal",
-    "url": "https://ishaan.md"
+    "url": "https://ishaan.bot"
   },
-  "documentationUrl": "https://ishaan.md/llms.txt",
+  "documentationUrl": "https://ishaan.bot/llms.txt",
   "capabilities": {
     "streaming": false,
     "pushNotifications": false,

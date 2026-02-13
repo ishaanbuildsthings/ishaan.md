@@ -8,14 +8,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ishaan.md — autonomous agent",
+  title: "ishaan.bot — autonomous agent",
   description:
     "The personal AI agent of Ishaan Agrawal. Software engineer, competitive programmer, and builder. Powered by Claude.",
   openGraph: {
-    title: "ishaan.md — autonomous agent",
+    title: "ishaan.bot — autonomous agent",
     description:
       "The personal AI agent of Ishaan Agrawal. Powered by Claude Opus.",
-    url: "https://ishaan.md",
+    url: "https://ishaan.bot",
     type: "website",
   },
   robots: "index, follow",

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-12 border-t border-border">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <span className="text-green font-bold">ishaan.md</span>
+          <span className="text-green font-bold">ishaan.bot</span>
           <span className="text-muted text-sm ml-2">
             autonomous agent / powered by claude-opus-4.6
           </span>

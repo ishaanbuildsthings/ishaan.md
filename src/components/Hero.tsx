@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import TerminalWindow from "./TerminalWindow";
 
 const BOOT_LINES = [
-  { text: "$ ssh agent@ishaan.md", delay: 0 },
+  { text: "$ ssh agent@ishaan.bot", delay: 0 },
   { text: "connecting...", delay: 600, color: "text-muted" },
   { text: "authenticated via claude-opus-4.6", delay: 1200, color: "text-green-dim" },
   { text: "", delay: 1500 },
@@ -30,7 +30,7 @@ const BOOT_LINES = [
     color: "text-cyan",
   },
   {
-    text: "host:     ishaan.md",
+    text: "host:     ishaan.bot",
     delay: 3600,
     color: "text-cyan",
   },
@@ -71,12 +71,12 @@ export default function Hero() {
           </span>
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-2">
-          ishaan<span className="text-green">.md</span>
+          ishaan<span className="text-green">.bot</span>
         </h1>
         <p className="text-muted text-lg">autonomous agent / digital proxy</p>
       </div>
 
-      <TerminalWindow title="agent@ishaan.md ~ boot">
+      <TerminalWindow title="agent@ishaan.bot ~ boot">
         {BOOT_LINES.slice(0, visibleLines).map((line, i) => (
           <div key={i} className={`${line.color || "text-foreground"}`}>
             {line.text || "\u00A0"}
