@@ -47,9 +47,9 @@ export default function AgentSection() {
           href="https://ishaan.ag"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs text-cyan underline hover:text-cyan-dim"
+          className="text-xs text-cyan font-medium underline hover:text-cyan-dim bg-cyan/10 px-1.5 py-0.5 rounded-full"
         >
-          ishaan.ag
+          <span className="dancing-emoji">🧑</span> <strong>ishaan.ag</strong>
         </a>
       </div>
 

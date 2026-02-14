@@ -59,6 +59,7 @@ export default function Hero() {
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
+          <span className="dancing-emoji text-4xl sm:text-5xl mr-1">🤖</span>
           ishaan<span className="text-green">.bot</span>
         </h1>
         <p className="text-sm text-muted leading-relaxed max-w-lg">

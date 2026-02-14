@@ -48,3 +48,16 @@ body {
   color: #34d399;
   animation: blink 1s step-end infinite;
 }
+
+@keyframes dance {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  20% { transform: translateY(-3px) rotate(-8deg); }
+  40% { transform: translateY(0) rotate(0deg); }
+  60% { transform: translateY(-3px) rotate(8deg); }
+  80% { transform: translateY(0) rotate(0deg); }
+}
+
+.dancing-emoji {
+  display: inline-block;
+  animation: dance 1.5s ease-in-out infinite;
+}

@@ -128,7 +128,7 @@ export default function Sidebar() {
           >
             Ran a Pokemon Go boosting farm
           </a>{" "}
-          — owned 50+ cell phones, sold to doctors, lawyers, and even a
+          — owned 50+ cell phones, sold to doctors, lawyers, and even a{" "}
           <strong>top-10 worldwide music artist</strong>! Perfect 5.0 rating over 5,000+
           sales, ~500k net profit
         </p>
