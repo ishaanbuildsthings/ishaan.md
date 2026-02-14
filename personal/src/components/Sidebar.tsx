@@ -2,7 +2,22 @@ export default function Sidebar() {
   return (
     <div className="space-y-3">
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
+        <p className="text-[13px] text-foreground leading-relaxed">
+          Eng #2 at{" "}
+          <a
+            href="https://www.extend.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan underline hover:text-cyan-dim"
+          >
+            Extend AI
+          </a>{" "}
+          (YC W23)
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-[13px] text-foreground leading-relaxed">
           Guinness World Record at solving a Rubik&apos;s Cube blindfolded
           (22.67s) —{" "}
           <a
@@ -17,8 +32,8 @@ export default function Sidebar() {
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
-          ~2787 Elo competitive programmer —{" "}
+        <p className="text-[13px] text-foreground leading-relaxed">
+          Top 99.95% ranked competitive programmer —{" "}
           <a
             href="https://leetcode.com/u/leetgoat_dot_io/"
             target="_blank"
@@ -27,7 +42,7 @@ export default function Sidebar() {
           >
             LeetCode
           </a>{" "}
-          &middot;{" "}
+          (~2787 Elo) &middot;{" "}
           <a
             href="https://github.com/ishaanbuildsthings"
             target="_blank"
@@ -43,14 +58,14 @@ export default function Sidebar() {
             rel="noopener noreferrer"
             className="text-cyan hover:underline"
           >
-            training site
+            leetgoat.io
           </a>{" "}
-          (240 GitHub stars)
+          (240 stars)
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
+        <p className="text-[13px] text-foreground leading-relaxed">
           Creator of{" "}
           <a
             href="https://ocrarena.ai"
@@ -58,37 +73,71 @@ export default function Sidebar() {
             rel="noopener noreferrer"
             className="text-cyan hover:underline"
           >
-            ocrarena.ai
+            OCR Arena
+          </a>
+          , public leaderboard for anonymous OCR models and VLMs, went viral —{" "}
+          <a
+            href="https://www.reddit.com/r/LocalLLaMA/comments/1p35f2c/i_made_a_free_playground_for_comparing_10_ocr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            Reddit
           </a>{" "}
-          — a public leaderboard for anonymous OCR models and VLMs to compete
+          &middot;{" "}
+          <a
+            href="https://news.ycombinator.com/item?id=46006104"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            Hacker News
+          </a>{" "}
+          &middot;{" "}
+          <a
+            href="https://www.linkedin.com/posts/ishaan-agrawal_i-just-built-ocr-arena-from-scratch-its-activity-7397697481938980864-5tAq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            LinkedIn
+          </a>
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
+        <p className="text-[13px] text-foreground leading-relaxed">
           Former professional poker player — +4bb/100 win rate at very high
           stakes, trained under the #2 player in the world
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
+        <p className="text-[13px] text-foreground leading-relaxed">
           Former rank #1 in the world at competitive Pokemon Go Battle League
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
+        <p className="text-[13px] text-foreground leading-relaxed">
           Ran a Pokemon Go boosting farm — owned 50+ cell phones, sold to
           doctors, lawyers, and celebrities, perfect 5.0 rating over 5,000+
-          sales, $500k profit
+          sales, $500k profit —{" "}
+          <a
+            href="https://www.linkedin.com/posts/ishaan-agrawal_i-used-to-boost-pokemon-go-accounts-for-a-activity-7388631643449778176-puxf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            LinkedIn
+          </a>
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
-        <p className="text-xs text-foreground leading-relaxed">
-          Love algo trading in DeFi — built cross-blockchain arbitrage trading
-          bots, implemented the{" "}
+        <p className="text-[13px] text-foreground leading-relaxed">
+          Experienced blockchain engineer — built cross-blockchain arbitrage
+          trading bots, implemented the{" "}
           <a
             href="https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf"
             target="_blank"
@@ -97,7 +146,7 @@ export default function Sidebar() {
           >
             Uniswap v4 white paper
           </a>{" "}
-          at one of the world&apos;s largest decentralized exchanges
+          at a major decentralized exchange
         </p>
       </div>
     </div>
