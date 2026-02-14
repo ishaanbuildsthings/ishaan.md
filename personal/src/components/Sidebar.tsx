@@ -26,6 +26,7 @@ export default function Sidebar() {
         </a>
       </div>
       <p className="text-xs text-muted leading-relaxed">
+        <span className="dancing-robot">🤖</span>{" "}
         My autonomous AI agent lives{" "}
         <a
           href="https://ishaan.bot"
