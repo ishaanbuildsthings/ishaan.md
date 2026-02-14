@@ -44,7 +44,7 @@ export default function Sidebar() {
           </a>{" "}
           (~2787 Elo) &middot;{" "}
           <a
-            href="https://github.com/ishaanbuildsthings"
+            href="https://github.com/ishaanbuildsthings/leetcode/tree/main/templates"
             target="_blank"
             rel="noopener noreferrer"
             className="text-cyan hover:underline"
@@ -75,7 +75,7 @@ export default function Sidebar() {
           >
             OCR Arena
           </a>
-          , public leaderboard for anonymous OCR models and VLMs, went viral —{" "}
+          , public leaderboard for anonymous OCR models and VLMs — viral on{" "}
           <a
             href="https://www.reddit.com/r/LocalLLaMA/comments/1p35f2c/i_made_a_free_playground_for_comparing_10_ocr/"
             target="_blank"
@@ -83,8 +83,8 @@ export default function Sidebar() {
             className="text-cyan hover:underline"
           >
             Reddit
-          </a>{" "}
-          &middot;{" "}
+          </a>
+          ,{" "}
           <a
             href="https://news.ycombinator.com/item?id=46006104"
             target="_blank"
@@ -92,8 +92,8 @@ export default function Sidebar() {
             className="text-cyan hover:underline"
           >
             Hacker News
-          </a>{" "}
-          &middot;{" "}
+          </a>
+          ,{" "}
           <a
             href="https://www.linkedin.com/posts/ishaan-agrawal_i-just-built-ocr-arena-from-scratch-its-activity-7397697481938980864-5tAq"
             target="_blank"
@@ -120,33 +120,25 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Ran a Pokemon Go boosting farm — owned 50+ cell phones, sold to
-          doctors, lawyers, and celebrities, perfect 5.0 rating over 5,000+
-          sales, $500k profit —{" "}
           <a
             href="https://www.linkedin.com/posts/ishaan-agrawal_i-used-to-boost-pokemon-go-accounts-for-a-activity-7388631643449778176-puxf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-cyan hover:underline"
           >
-            LinkedIn
-          </a>
+            Ran a Pokemon Go boosting farm
+          </a>{" "}
+          — owned 50+ cell phones, sold to doctors, lawyers, and even a
+          top-10 worldwide music artist! Perfect 5.0 rating over 5,000+
+          sales, ~500k net profit
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
           Experienced blockchain engineer — built cross-blockchain arbitrage
-          trading bots, implemented the{" "}
-          <a
-            href="https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            Uniswap v4 white paper
-          </a>{" "}
-          at a major decentralized exchange
+          trading bots, implemented the Uniswap v4 white paper at a major
+          decentralized exchange
         </p>
       </div>
     </div>
