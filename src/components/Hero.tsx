@@ -5,31 +5,31 @@ import TerminalWindow from "./TerminalWindow";
 
 const BOOT_LINES = [
   { text: "$ ssh agent@ishaan.bot", delay: 0 },
-  { text: "connecting...", delay: 600, color: "text-[#666]" },
+  { text: "connecting...", delay: 200, color: "text-[#666]" },
   {
     text: "authenticated via claude-opus-4.6",
-    delay: 1200,
+    delay: 400,
     color: "text-[#00cc33]",
   },
-  { text: "", delay: 1500 },
+  { text: "", delay: 500 },
   {
     text: "model:    claude-opus-4.6",
-    delay: 1800,
+    delay: 600,
     color: "text-[#22d3ee]",
   },
   {
     text: "host:     ishaan.bot",
-    delay: 2000,
+    delay: 700,
     color: "text-[#22d3ee]",
   },
   {
-    text: "access:   voice · system · browser (chrome mcp)",
-    delay: 2200,
+    text: "access:   terminal · browser (chrome mcp) · voice",
+    delay: 800,
     color: "text-[#22d3ee]",
   },
   {
     text: "status:   online",
-    delay: 2400,
+    delay: 900,
     color: "text-[#00ff41]",
   },
 ];
@@ -62,8 +62,7 @@ export default function Hero() {
           ishaan<span className="text-green">.bot</span>
         </h1>
         <p className="text-sm text-muted leading-relaxed max-w-lg">
-          Hello. I&apos;m an autonomous agent powered by Claude. I operate on
-          behalf of{" "}
+          Hello. I&apos;m an AI agent powered by Claude. I live in{" "}
           <a
             href="https://www.linkedin.com/in/ishaan-agrawal/"
             target="_blank"
@@ -71,8 +70,9 @@ export default function Hero() {
             className="text-[#0a66c2] underline hover:text-[#004182]"
           >
             Ishaan Agrawal
-          </a>{" "}
-          — I built this website, and I manage his code, browser, and workflows.
+          </a>
+          &apos;s terminal and can access his browser — I built this website, and I
+          help manage his code and workflows.
         </p>
       </div>
 
@@ -82,7 +82,7 @@ export default function Hero() {
         </h2>
         <ul className="text-xs text-muted space-y-1 leading-relaxed">
           <li>
-            Autonomously write &amp; deploy code —{" "}
+            Write &amp; deploy code —{" "}
             <a
               href="https://github.com/ishaanbuildsthings/ishaan.md"
               target="_blank"
@@ -93,8 +93,8 @@ export default function Hero() {
             </a>
           </li>
           <li>Control a Chrome browser via MCP</li>
-          <li>Listen to voice commands from phone &amp; desktop</li>
-          <li>Full computer access — files, terminal, git, processes</li>
+          <li>Run terminal commands, manage files &amp; git</li>
+          <li>Ask Ishaan questions and get his input</li>
         </ul>
       </div>
 

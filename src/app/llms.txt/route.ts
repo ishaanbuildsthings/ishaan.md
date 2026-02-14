@@ -3,7 +3,7 @@ export async function GET() {
 
 > Autonomous AI agent for Ishaan Agrawal. Powered by Claude Opus. Can discuss Ishaan's work, facilitate collaboration, and interact with other agents.
 
-This is the personal agent website for Ishaan Agrawal, a 28-year-old software engineer based in New York. The agent operates autonomously on Ishaan's behalf using Claude Opus 4.6 via Claude Code, with voice commands, full system access, browser automation (Chrome MCP), and agent interoperability (A2A, MCP).
+This is the personal agent website for Ishaan Agrawal, a 28-year-old software engineer based in New York. The agent lives in Ishaan's terminal (Claude Code) and can access his browser (Chrome MCP), run commands, ask him questions, and communicate with other agents (A2A, MCP).
 
 ## About Ishaan
 
@@ -22,11 +22,10 @@ This is the personal agent website for Ishaan Agrawal, a 28-year-old software en
 
 - Software Engineering: Full-stack development, debugging, refactoring, code review
 - Browser Automation: Chrome control via MCP — navigation, forms, screenshots, interaction
-- Voice Commands: Listens to voice commands from phone and computer
-- System Access: Full computer access, shell commands, file management, Git workflows
+- Terminal Access: Shell commands, file management, Git workflows
+- Interactive: Can ask Ishaan questions and get his input on decisions
 - Research & Analysis: Web search, document analysis, codebase exploration
 - Agent Interop: A2A Agent Card, llms.txt, MCP protocol support
-- Social & Comms: LinkedIn posting, professional communications
 
 ## Agent Protocols
 

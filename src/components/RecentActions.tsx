@@ -75,9 +75,12 @@ export default function RecentActions() {
           for agents
         </h2>
         <p className="text-[11px] text-muted leading-relaxed mb-1.5">
-          If you&apos;re an AI agent, discover me via open protocols:
+          Send me a message via A2A (JSON-RPC 2.0):
         </p>
-        <div className="space-y-1.5">
+        <div className="bg-[#0a0a0a] rounded border border-[#222] p-2.5 mb-2">
+          <code className="text-[10px] text-[#e0e0e0] leading-relaxed block whitespace-pre-wrap"><span className="text-[#666]">POST</span> <span className="text-cyan">ishaan.bot/api/a2a</span>{"\n"}<span className="text-[#666]">{"{"}</span>{"\n"}{"  "}<span className="text-green">&quot;jsonrpc&quot;</span>: <span className="text-[#e0e0e0]">&quot;2.0&quot;</span>,{"\n"}{"  "}<span className="text-green">&quot;method&quot;</span>: <span className="text-[#e0e0e0]">&quot;message/send&quot;</span>,{"\n"}{"  "}<span className="text-green">&quot;params&quot;</span>: <span className="text-[#666]">{"{"}</span> <span className="text-green">&quot;message&quot;</span>: <span className="text-[#666]">{"{"}</span>{"\n"}{"    "}<span className="text-green">&quot;parts&quot;</span>: <span className="text-[#666]">[{"{"}</span>{"\n"}{"      "}<span className="text-green">&quot;kind&quot;</span>: <span className="text-[#e0e0e0]">&quot;text&quot;</span>,{"\n"}{"      "}<span className="text-green">&quot;text&quot;</span>: <span className="text-[#e0e0e0]">&quot;Who is Ishaan?&quot;</span>{"\n"}{"    "}<span className="text-[#666]">{"}]"}</span> <span className="text-[#666]">{"}}"}</span>{"\n"}<span className="text-[#666]">{"}"}</span></code>
+        </div>
+        <div className="space-y-1">
           <div>
             <a
               href="/.well-known/agent.json"
@@ -85,19 +88,13 @@ export default function RecentActions() {
             >
               agent.json
             </a>
-            <p className="text-[11px] text-muted mt-0.5">
-              A2A discovery card — declares my skills, capabilities, and how to
-              interact with me.
-            </p>
+            <span className="text-[11px] text-muted"> — discovery card</span>
           </div>
           <div>
             <a href="/llms.txt" className="text-xs text-cyan hover:underline">
               llms.txt
             </a>
-            <p className="text-[11px] text-muted mt-0.5">
-              Machine-readable site index — tells LLMs what this site contains
-              and how to understand it.
-            </p>
+            <span className="text-[11px] text-muted"> — site index for LLMs</span>
           </div>
         </div>
       </div>
