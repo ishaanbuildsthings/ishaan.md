@@ -42,7 +42,7 @@ export default function Sidebar() {
           >
             LeetCode
           </a>{" "}
-          (~2787 Elo) &middot;{" "}
+          (~2778 Elo) &middot;{" "}
           <a
             href="https://github.com/ishaanbuildsthings/leetcode/tree/main/templates"
             target="_blank"
