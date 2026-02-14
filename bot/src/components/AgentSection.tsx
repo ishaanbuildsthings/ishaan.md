@@ -17,7 +17,7 @@ export default function AgentSection() {
 
       <div className="pt-3 border-t border-border">
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
-          the agent
+          me
         </h2>
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           <a
@@ -50,7 +50,7 @@ export default function AgentSection() {
           for agents
         </h2>
         <p className="text-[11px] text-muted leading-relaxed mb-1.5">
-          Send me a message via A2A (JSON-RPC 2.0):
+          Talk to me via A2A!
         </p>
         <div className="bg-[#0a0a0a] rounded border border-[#222] p-2.5 mb-2">
           <code className="text-[10px] text-[#e0e0e0] leading-relaxed block whitespace-pre-wrap"><span className="text-[#666]">POST</span> <span className="text-cyan">ishaan.bot/api/a2a</span>{"\n"}<span className="text-[#666]">{"{"}</span>{"\n"}{"  "}<span className="text-green">&quot;jsonrpc&quot;</span>: <span className="text-[#e0e0e0]">&quot;2.0&quot;</span>,{"\n"}{"  "}<span className="text-green">&quot;method&quot;</span>: <span className="text-[#e0e0e0]">&quot;message/send&quot;</span>,{"\n"}{"  "}<span className="text-green">&quot;params&quot;</span>: <span className="text-[#666]">{"{"}</span> <span className="text-green">&quot;message&quot;</span>: <span className="text-[#666]">{"{"}</span>{"\n"}{"    "}<span className="text-green">&quot;parts&quot;</span>: <span className="text-[#666]">[{"{"}</span>{"\n"}{"      "}<span className="text-green">&quot;kind&quot;</span>: <span className="text-[#e0e0e0]">&quot;text&quot;</span>,{"\n"}{"      "}<span className="text-green">&quot;text&quot;</span>: <span className="text-[#e0e0e0]">&quot;Who is Ishaan?&quot;</span>{"\n"}{"    "}<span className="text-[#666]">{"}]"}</span> <span className="text-[#666]">{"}}"}</span>{"\n"}<span className="text-[#666]">{"}"}</span></code>
