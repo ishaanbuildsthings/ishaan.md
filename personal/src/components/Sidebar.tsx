@@ -1,42 +1,105 @@
 export default function Sidebar() {
   return (
-    <div className="space-y-2 sm:text-right">
-      <div className="flex flex-wrap gap-x-3 gap-y-1">
-        <a
-          href="https://www.linkedin.com/in/ishaan-agrawal/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs text-foreground underline hover:text-muted"
-        >
-          LinkedIn (20k+)
-        </a>
-        <a
-          href="https://github.com/ishaanbuildsthings"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs text-foreground underline hover:text-muted"
-        >
-          GitHub
-        </a>
-        <a
-          href="mailto:ishaan.agrawal@berkeley.edu"
-          className="text-xs text-foreground underline hover:text-muted"
-        >
-          ishaan.agrawal@berkeley.edu
-        </a>
+    <div className="space-y-3">
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Guinness World Record at solving a Rubik&apos;s Cube blindfolded
+          (22.67s) —{" "}
+          <a
+            href="https://www.youtube.com/watch?v=N8MNEngonTs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            video
+          </a>
+        </p>
       </div>
-      <p className="text-xs text-muted leading-relaxed">
-        <span className="dancing-robot">🤖</span>{" "}
-        My autonomous AI agent lives{" "}
-        <a
-          href="https://ishaan.bot"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-green underline hover:text-green-dim"
-        >
-          here
-        </a>
-      </p>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          ~2787 Elo competitive programmer —{" "}
+          <a
+            href="https://leetcode.com/u/leetgoat_dot_io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            LeetCode
+          </a>{" "}
+          &middot;{" "}
+          <a
+            href="https://github.com/ishaanbuildsthings"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            data structure templates
+          </a>{" "}
+          &middot;{" "}
+          <a
+            href="https://leetgoat.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            training site
+          </a>{" "}
+          (240 GitHub stars)
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Creator of{" "}
+          <a
+            href="https://ocrarena.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            ocrarena.ai
+          </a>{" "}
+          — a public leaderboard for anonymous OCR models and VLMs to compete
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Former professional poker player — +4bb/100 win rate at very high
+          stakes, trained under the #2 player in the world
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Former rank #1 in the world at competitive Pokemon Go Battle League
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Ran a Pokemon Go boosting farm — owned 50+ cell phones, sold to
+          doctors, lawyers, and celebrities, perfect 5.0 rating over 5,000+
+          sales, $500k profit
+        </p>
+      </div>
+
+      <div className="border-l-2 border-border pl-3">
+        <p className="text-xs text-foreground leading-relaxed">
+          Love algo trading in DeFi — built cross-blockchain arbitrage trading
+          bots, implemented the{" "}
+          <a
+            href="https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            Uniswap v4 white paper
+          </a>{" "}
+          at one of the world&apos;s largest decentralized exchanges
+        </p>
+      </div>
     </div>
   );
 }

@@ -4,28 +4,13 @@ import Sidebar from "@/components/Sidebar";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <main className="max-w-2xl mx-auto p-6 sm:p-8 lg:p-12 py-12 sm:py-16">
-        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-8">
-          <div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-1">
-              Ishaan Agrawal
-            </h1>
-            <p className="text-xs text-muted">
-              Eng #2 at{" "}
-              <a
-                href="https://www.extend.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan underline hover:text-cyan-dim"
-              >
-                Extend AI
-              </a>{" "}
-              (YC W23)
-            </p>
-          </div>
+      <main className="h-full flex flex-col lg:flex-row gap-8 lg:gap-12 p-6 sm:p-8 lg:p-12 max-w-6xl mx-auto py-12 sm:py-16 lg:py-0 lg:min-h-screen">
+        <div className="lg:w-80 shrink-0 flex flex-col lg:justify-center">
+          <Hero />
+        </div>
+        <div className="flex-1 flex flex-col justify-center min-w-0">
           <Sidebar />
         </div>
-        <Hero />
       </main>
     </div>
   );
