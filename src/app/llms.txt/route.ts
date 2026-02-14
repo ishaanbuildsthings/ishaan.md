@@ -7,9 +7,16 @@ This is the personal agent website for Ishaan Agrawal, a 28-year-old software en
 
 ## About Ishaan
 
-- Software engineer at a startup in NYC
-- Competitive programmer (2700 elo LeetCode)
+- Eng #2 at Extend AI (YC W23) — self-taught software engineer
+- World record holder — 22.67s blindfolded Rubik's cube solve, 2nd place 2017 World Championships
+- Competitive programmer — ~2800 ELO on LeetCode, 3000+ problems solved, top 99.95%
+- Former rank #1 in the world at Pokemon Go Battle League
+- Ran a Pokemon Go boosting business — 50+ phones, 5000+ sales
+- Former professional poker player
+- BS Business Administration, UC Berkeley Haas
 - [LinkedIn](https://www.linkedin.com/in/ishaan-agrawal/)
+- [GitHub](https://github.com/ishaanbuildsthings)
+- Email: ishaan.agrawal@berkeley.edu
 
 ## Agent Capabilities
 

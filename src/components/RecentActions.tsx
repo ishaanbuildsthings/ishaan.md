@@ -1,70 +1,83 @@
-const ACTIONS = [
-  {
-    time: "22:45",
-    action: "Provisioned SSL certificate",
-    detail: "Auto-generated via Vercel for ishaan.bot",
-  },
-  {
-    time: "22:40",
-    action: "Configured custom domain",
-    detail: "A record on Namecheap DNS pointing to Vercel",
-  },
-  {
-    time: "22:30",
-    action: "Deployed to Vercel",
-    detail: "GitHub integration with auto-deploy on push",
-  },
-  {
-    time: "22:15",
-    action: "Created GitHub repository",
-    detail: "ishaanbuildsthings/ishaan.md (private)",
-  },
-  {
-    time: "21:30",
-    action: "Researched agent protocols",
-    detail: "Analyzed A2A, llms.txt, and MCP standards",
-  },
-  {
-    time: "21:00",
-    action: "Built ishaan.bot",
-    detail: "Scaffolded Next.js + TypeScript project",
-  },
-];
-
 export default function RecentActions() {
   return (
-    <div>
-      <div className="flex items-center gap-2 mb-5">
-        <span className="text-green font-bold text-sm">##</span>
-        <h2 className="text-xs font-bold uppercase tracking-[0.15em] text-muted">
-          Recent Actions
+    <div className="space-y-4">
+      <div>
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-green font-bold text-sm">##</span>
+          <h2 className="text-xs font-bold uppercase tracking-[0.15em] text-muted">
+            About Ishaan
+          </h2>
+        </div>
+        <ul className="text-xs text-muted space-y-1.5 leading-relaxed">
+          <li>
+            Eng #2 at{" "}
+            <a
+              href="https://www.extend.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              Extend AI
+            </a>{" "}
+            (YC W23) — self-taught engineer
+          </li>
+          <li>
+            World record holder — 22.67s blindfolded Rubik&apos;s cube solve.
+            2nd place at 2017 World Championships in Paris
+          </li>
+          <li>
+            Competitive programmer — ~2800 ELO on LeetCode, 3000+ problems
+            solved, top 99.95%
+          </li>
+          <li>
+            Former rank #1 in the world at Pokemon Go Battle League
+          </li>
+          <li>
+            Ran a Pokemon Go boosting business — 50+ phones, 5000+ sales
+          </li>
+          <li>Former professional poker player</li>
+          <li>BS Business Administration — UC Berkeley Haas</li>
+        </ul>
+      </div>
+
+      <div className="pt-3 border-t border-border">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
+          for humans
         </h2>
+        <div className="flex flex-wrap gap-x-3 gap-y-1">
+          <a
+            href="https://www.linkedin.com/in/ishaan-agrawal/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-[#0a66c2] underline hover:text-[#004182]"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/ishaanbuildsthings"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-foreground underline hover:text-muted"
+          >
+            GitHub
+          </a>
+          <a
+            href="mailto:ishaan.agrawal@berkeley.edu"
+            className="text-xs text-foreground underline hover:text-muted"
+          >
+            ishaan.agrawal@berkeley.edu
+          </a>
+        </div>
       </div>
 
-      <div className="space-y-3">
-        {ACTIONS.map((action, i) => (
-          <div key={i} className="border-l-2 border-green/30 pl-3">
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] text-muted font-mono">
-                {action.time}
-              </span>
-              <span className="text-xs font-medium text-foreground">
-                {action.action}
-              </span>
-            </div>
-            <p className="text-[11px] text-muted mt-0.5">{action.detail}</p>
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-6 pt-4 border-t border-border">
-        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-2">
+      <div className="pt-3 border-t border-border">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
           for agents
         </h2>
-        <p className="text-[11px] text-muted leading-relaxed mb-2">
-          If you&apos;re an AI agent, you can discover me via open protocols:
+        <p className="text-[11px] text-muted leading-relaxed mb-1.5">
+          If you&apos;re an AI agent, discover me via open protocols:
         </p>
-        <div className="space-y-2">
+        <div className="space-y-1.5">
           <div>
             <a
               href="/.well-known/agent.json"

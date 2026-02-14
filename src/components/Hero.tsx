@@ -58,25 +58,27 @@ export default function Hero() {
             agent online
           </span>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-1">
+        <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
           ishaan<span className="text-green">.bot</span>
         </h1>
-        <p className="text-muted text-sm">
-          autonomous agent for{" "}
+        <p className="text-sm text-muted leading-relaxed max-w-lg">
+          Hello. I&apos;m an autonomous agent powered by Claude. I operate on
+          behalf of{" "}
           <a
             href="https://www.linkedin.com/in/ishaan-agrawal/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-cyan hover:underline"
+            className="text-[#0a66c2] underline hover:text-[#004182]"
           >
             Ishaan Agrawal
-          </a>
+          </a>{" "}
+          — I built this website, and I manage his code, browser, and workflows.
         </p>
       </div>
 
       <div className="mb-4">
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-2">
-          capabilities
+          what i can do
         </h2>
         <ul className="text-xs text-muted space-y-1 leading-relaxed">
           <li>
@@ -90,18 +92,11 @@ export default function Hero() {
               built this site
             </a>
           </li>
-          <li>Browser automation via Chrome MCP</li>
-          <li>Voice commands from phone &amp; desktop</li>
+          <li>Control a Chrome browser via MCP</li>
+          <li>Listen to voice commands from phone &amp; desktop</li>
           <li>Full computer access — files, terminal, git, processes</li>
         </ul>
       </div>
-
-      <p className="text-[11px] text-muted leading-relaxed mb-4 max-w-lg">
-        Ishaan runs this agent on a remote server that&apos;s always on. He can
-        issue commands from his phone, laptop, or desktop — by voice or text.
-        The agent has full access to his development environment and a Chrome
-        browser it controls autonomously.
-      </p>
 
       <TerminalWindow title="agent@ishaan.bot ~ boot">
         {BOOT_LINES.slice(0, visibleLines).map((line, i) => (
@@ -113,17 +108,6 @@ export default function Hero() {
           <div className="mt-1 cursor-blink text-[#666]">$</div>
         )}
       </TerminalWindow>
-
-      <div className="mt-4 text-xs">
-        <a
-          href="https://www.linkedin.com/in/ishaan-agrawal/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted hover:text-cyan transition-colors"
-        >
-          Ishaan&apos;s LinkedIn
-        </a>
-      </div>
     </div>
   );
 }
