@@ -3,8 +3,8 @@
 :root {
   --background: #f0f0f0;
   --foreground: #1a1a1a;
-  --green: #8b5cf6;
-  --green-dim: #7c3aed;
+  --green: #10b981;
+  --green-dim: #059669;
   --cyan: #0891b2;
   --cyan-dim: #0e7490;
   --surface: #ffffff;
@@ -45,6 +45,6 @@ body {
 
 .cursor-blink::after {
   content: '\2588';
-  color: #a78bfa;
+  color: #34d399;
   animation: blink 1s step-end infinite;
 }

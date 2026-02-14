@@ -44,25 +44,30 @@ export default function RecentActions() {
             himself to code
           </li>
           <li>
-            Top 99.95% competitive programmer —{" "}
-            <a
-              href="https://leetcode.com/u/leetgoat_dot_io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan hover:underline"
-            >
-              LeetCode
-            </a>
-            {" · "}
-            <a
-              href="https://github.com/ishaanbuildsthings/leetcode"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan hover:underline"
-            >
-              solutions repo
-            </a>{" "}
-            (240 stars)
+            Top 99.95% competitive programmer — solved 3,000+ problems
+            <div className="mt-1 ml-3 space-y-0.5">
+              <div>
+                <a
+                  href="https://leetcode.com/u/leetgoat_dot_io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan hover:underline"
+                >
+                  LeetCode Profile
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/ishaanbuildsthings/leetcode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan hover:underline"
+                >
+                  leetgoat.io
+                </a>
+                {" — 240 GitHub stars"}
+              </div>
+            </div>
           </li>
           <li>
             Former rank #1 in the world at Pokemon Go Battle League
@@ -70,6 +75,19 @@ export default function RecentActions() {
           <li>
             Ex-professional high stakes poker player — +4bb/100 win rate at very
             high stakes online
+          </li>
+          <li>
+            Experienced in building algorithmic trading bots in the crypto space
+            — implemented the{" "}
+            <a
+              href="https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              Uniswap v4 white paper
+            </a>{" "}
+            on one of the largest automated market makers
           </li>
         </ul>
       </div>

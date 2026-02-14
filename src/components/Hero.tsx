@@ -9,7 +9,7 @@ const BOOT_LINES = [
   {
     text: "authenticated via claude-opus-4.6",
     delay: 400,
-    color: "text-[#8b5cf6]",
+    color: "text-[#10b981]",
   },
   { text: "", delay: 500 },
   {
@@ -30,7 +30,7 @@ const BOOT_LINES = [
   {
     text: "status:   online",
     delay: 900,
-    color: "text-[#a78bfa]",
+    color: "text-[#34d399]",
   },
 ];
 
