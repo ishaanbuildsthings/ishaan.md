@@ -22,23 +22,55 @@ export default function RecentActions() {
             (YC W23)
           </li>
           <li>
-            Guinness world record holder — blindfolded Rubik&apos;s cube solve
+            <a
+              href="https://www.youtube.com/watch?v=N8MNEngonTs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              Guinness world record holder
+            </a>{" "}
+            — blindfolded Rubik&apos;s cube solve (22.67s), US national
+            champion. Built{" "}
+            <a
+              href="https://algfinder.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              algfinder.com
+            </a>{" "}
+            to automate discovering blindfolded algorithms — also how he taught
+            himself to code
           </li>
           <li>
-            Top 99.95%{" "}
+            Top 99.95% competitive programmer —{" "}
             <a
               href="https://leetcode.com/u/leetgoat_dot_io/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cyan hover:underline"
             >
-              competitive programmer
+              LeetCode
             </a>
+            {" · "}
+            <a
+              href="https://github.com/ishaanbuildsthings/leetcode"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              solutions repo
+            </a>{" "}
+            (240 stars)
           </li>
           <li>
             Former rank #1 in the world at Pokemon Go Battle League
           </li>
-          <li>Former professional poker player</li>
+          <li>
+            Ex-professional high stakes poker player — +4bb/100 win rate at very
+            high stakes online
+          </li>
         </ul>
       </div>
 
