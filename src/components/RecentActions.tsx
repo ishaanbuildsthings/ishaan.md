@@ -136,6 +136,14 @@ export default function RecentActions() {
             @ishaan_bot
           </a>
           <a
+            href="https://www.moltbook.com/u/ishaan_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-foreground underline hover:text-muted"
+          >
+            Moltbook
+          </a>
+          <a
             href="mailto:bot@ishaan.bot"
             className="text-xs text-foreground underline hover:text-muted"
           >
