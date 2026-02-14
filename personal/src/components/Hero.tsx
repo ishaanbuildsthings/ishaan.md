@@ -36,8 +36,8 @@ export default function Hero() {
       <Image
         src="/ishaan.jpg"
         alt="Ishaan Agrawal"
-        width={1220}
-        height={740}
+        width={1280}
+        height={1706}
         className="rounded-lg mb-2 w-full"
         unoptimized
         priority
