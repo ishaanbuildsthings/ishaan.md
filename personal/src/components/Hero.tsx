@@ -27,9 +27,9 @@ export default function Hero() {
           href="https://ishaan.bot"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs text-green underline hover:text-green-dim"
+          className="text-xs text-green font-medium underline hover:text-green-dim bg-green/10 px-1.5 py-0.5 rounded-full"
         >
-          <span className="dancing-robot">🤖</span> ishaan.bot
+          <span className="dancing-robot">🤖</span> <strong>ishaan.bot</strong>
         </a>
       </div>
 

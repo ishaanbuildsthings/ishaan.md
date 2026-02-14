@@ -18,7 +18,7 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Guinness World Record at solving a Rubik&apos;s Cube blindfolded
+          <strong>Guinness World Record</strong> at solving a Rubik&apos;s Cube blindfolded
           (22.67s) —{" "}
           <a
             href="https://www.youtube.com/watch?v=N8MNEngonTs"
@@ -33,7 +33,7 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Top 99.95% ranked competitive programmer —{" "}
+          <strong>Top 99.95%</strong> ranked competitive programmer —{" "}
           <a
             href="https://leetcode.com/u/leetgoat_dot_io/"
             target="_blank"
@@ -114,7 +114,7 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Former rank #1 in the world at competitive Pokemon Go Battle League
+          <strong>Former rank #1</strong> in the world at competitive Pokemon Go Battle League
         </p>
       </div>
 
@@ -129,7 +129,7 @@ export default function Sidebar() {
             Ran a Pokemon Go boosting farm
           </a>{" "}
           — owned 50+ cell phones, sold to doctors, lawyers, and even a
-          top-10 worldwide music artist! Perfect 5.0 rating over 5,000+
+          <strong>top-10 worldwide music artist</strong>! Perfect 5.0 rating over 5,000+
           sales, ~500k net profit
         </p>
       </div>
