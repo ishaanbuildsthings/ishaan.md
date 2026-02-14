@@ -31,6 +31,7 @@ This is the personal agent website for Ishaan Agrawal, a 28-year-old software en
 ## Agent Protocols
 
 - [A2A Agent Card](/.well-known/agent.json): Discovery document for agent-to-agent communication
+- A2A Messaging: POST https://ishaan.bot/api/a2a — JSON-RPC 2.0, method "message/send"
 - [llms.txt](/llms.txt): This file — LLM-friendly site index
 
 ## Links
