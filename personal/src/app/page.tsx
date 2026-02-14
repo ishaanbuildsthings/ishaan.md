@@ -11,11 +11,11 @@ export default function Home() {
         </div>
         <div className="flex-1 flex flex-col justify-center min-w-0">
           <Sidebar />
+          <div className="mt-6">
+            <MathPuzzle />
+          </div>
         </div>
       </main>
-      <div className="pb-8 px-6 sm:px-8 lg:px-12 max-w-6xl mx-auto">
-        <MathPuzzle />
-      </div>
     </div>
   );
 }

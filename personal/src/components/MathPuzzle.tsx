@@ -6,15 +6,15 @@ export default function MathPuzzle() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="text-center">
+    <div>
       <button
         onClick={() => setOpen(!open)}
-        className="text-xs px-4 py-1.5 rounded-full border border-border text-muted hover:text-foreground hover:border-foreground transition-colors cursor-pointer"
+        className="text-xs px-5 py-2 rounded-full bg-foreground text-background font-medium hover:opacity-80 active:opacity-70 transition-opacity cursor-pointer shadow-sm"
       >
         {open ? "hide puzzle" : "math puzzle"}
       </button>
       {open && (
-        <div className="mt-4 max-w-lg mx-auto text-left border border-border rounded-lg p-4 bg-surface">
+        <div className="mt-3 border border-border rounded-lg p-4 bg-surface">
           <p className="text-[13px] text-foreground leading-relaxed">
             You are given an infinite integer number line. A ship spawns at an
             unknown integer position with an unknown integer velocity. Every
