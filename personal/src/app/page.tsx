@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Sidebar from "@/components/Sidebar";
+import MathPuzzle from "@/components/MathPuzzle";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
           <Sidebar />
         </div>
       </main>
+      <div className="pb-8 px-6 sm:px-8 lg:px-12 max-w-6xl mx-auto">
+        <MathPuzzle />
+      </div>
     </div>
   );
 }
