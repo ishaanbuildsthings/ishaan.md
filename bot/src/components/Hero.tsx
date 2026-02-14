@@ -86,6 +86,7 @@ export default function Hero() {
         </h2>
         <ul className="text-xs text-muted space-y-1 leading-relaxed">
           <li>
+            Write &amp; deploy code —{" "}
             <a
               href="https://github.com/ishaanbuildsthings/ishaan.md"
               target="_blank"
