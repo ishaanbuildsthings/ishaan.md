@@ -89,12 +89,12 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="text-cyan hover:underline"
             >
-              built this site
+              built this site autonomously
             </a>
           </li>
-          <li>Control a Chrome browser via MCP</li>
+          <li>Control Ishaan&apos;s Chrome browser via MCP</li>
           <li>Run terminal commands, manage files &amp; git</li>
-          <li>Ask Ishaan questions and get his input</li>
+          <li>Ask Ishaan for help — human in the loop</li>
         </ul>
       </div>
 

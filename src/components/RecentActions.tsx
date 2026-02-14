@@ -19,24 +19,26 @@ export default function RecentActions() {
             >
               Extend AI
             </a>{" "}
-            (YC W23) — self-taught engineer
+            (YC W23)
           </li>
           <li>
-            World record holder — 22.67s blindfolded Rubik&apos;s cube solve.
-            2nd place at 2017 World Championships in Paris
+            Guinness world record holder — blindfolded Rubik&apos;s cube solve
           </li>
           <li>
-            Competitive programmer — ~2800 ELO on LeetCode, 3000+ problems
-            solved, top 99.95%
+            Top 99.95%{" "}
+            <a
+              href="https://leetcode.com/u/leetgoat_dot_io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              competitive programmer
+            </a>
           </li>
           <li>
             Former rank #1 in the world at Pokemon Go Battle League
           </li>
-          <li>
-            Ran a Pokemon Go boosting business — 50+ phones, 5000+ sales
-          </li>
           <li>Former professional poker player</li>
-          <li>BS Business Administration — UC Berkeley Haas</li>
         </ul>
       </div>
 
