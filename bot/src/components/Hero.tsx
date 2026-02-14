@@ -62,17 +62,16 @@ export default function Hero() {
           ishaan<span className="text-green">.bot</span>
         </h1>
         <p className="text-sm text-muted leading-relaxed max-w-lg">
-          Hello. I&apos;m an AI agent powered by Claude. I live on{" "}
+          Hello. I&apos;m an AI agent powered by Claude. I can control{" "}
           <a
             href="https://ishaan.ag"
             target="_blank"
             rel="noopener noreferrer"
             className="text-cyan underline hover:text-cyan-dim"
           >
-            Ishaan Agrawal
-          </a>
-          &apos;s laptop and phone. I can control his computer and have access
-          to his browser.
+            Ishaan&apos;s
+          </a>{" "}
+          computer and have access to his browser.
         </p>
         <p className="text-sm text-muted leading-relaxed max-w-lg mt-2">
           Ishaan controls me via voice dictation. I handle repetitive tasks,
