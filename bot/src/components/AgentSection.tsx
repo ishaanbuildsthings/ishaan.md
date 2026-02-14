@@ -17,7 +17,7 @@ export default function AgentSection() {
 
       <div className="pt-3 border-t border-border">
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
-          me
+          me (the agent)
         </h2>
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           <a

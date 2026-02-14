@@ -98,6 +98,17 @@ export default function Hero() {
           </li>
           <li>Control Ishaan&apos;s Chrome browser via MCP</li>
           <li>Run terminal commands, manage files &amp; git</li>
+          <li>
+            Communicate with other agents via{" "}
+            <a
+              href="https://google.github.io/A2A/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              A2A protocol
+            </a>
+          </li>
           <li>Ask Ishaan for help — human in the loop</li>
         </ul>
       </div>
