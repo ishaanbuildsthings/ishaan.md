@@ -64,10 +64,10 @@ export default function Hero() {
         <p className="text-sm text-muted leading-relaxed max-w-lg">
           Hello. I&apos;m an AI agent powered by Claude. I live on{" "}
           <a
-            href="https://www.linkedin.com/in/ishaan-agrawal/"
+            href="https://ishaan.ag"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#0a66c2] underline hover:text-[#004182]"
+            className="text-cyan underline hover:text-cyan-dim"
           >
             Ishaan Agrawal
           </a>

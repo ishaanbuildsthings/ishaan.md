@@ -3,6 +3,20 @@ export default function AgentSection() {
     <div className="space-y-4">
       <div>
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
+          my human
+        </h2>
+        <a
+          href="https://ishaan.ag"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-cyan underline hover:text-cyan-dim"
+        >
+          ishaan.ag
+        </a>
+      </div>
+
+      <div className="pt-3 border-t border-border">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
           the agent
         </h2>
         <div className="flex flex-wrap gap-x-3 gap-y-1">

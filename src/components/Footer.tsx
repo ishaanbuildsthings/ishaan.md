@@ -22,12 +22,12 @@ export default function Footer() {
             agent.json
           </a>
           <a
-            href="https://www.linkedin.com/in/ishaan-agrawal/"
+            href="https://ishaan.ag"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan transition-colors"
           >
-            LinkedIn
+            ishaan.ag
           </a>
         </div>
       </div>
