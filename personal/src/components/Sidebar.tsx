@@ -107,8 +107,8 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Former professional poker player — +4bb/100 win rate at very high
-          stakes, trained under the #2 player in the world
+          Former professional poker player — +4bb/100 win rate at high
+          stakes online, trained under the #2 player in the world
         </p>
       </div>
 
@@ -136,9 +136,10 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Experienced blockchain engineer — built cross-blockchain arbitrage
-          trading bots, implemented the Uniswap v4 white paper at a major
-          decentralized exchange
+          I enjoy algo trading in DeFi. I wrote a cross-blockchain arbitrage
+          trading bot. I also wrote the automated market maker at a
+          decentralized exchange. My code has processed{" "}
+          <strong>~$9B of volume</strong>
         </p>
       </div>
     </div>
