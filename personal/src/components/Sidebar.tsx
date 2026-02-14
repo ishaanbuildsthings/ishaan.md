@@ -12,7 +12,7 @@ export default function Sidebar() {
           >
             Extend AI
           </a>{" "}
-          (YC W23)
+          (YC W23). Self-taught engineer ;)
         </p>
       </div>
 
