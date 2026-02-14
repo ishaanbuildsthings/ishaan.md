@@ -3,42 +3,29 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div>
-      <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-1">
-        Ishaan Agrawal
-      </h1>
-      <p className="text-xs text-muted mb-4">
-        Eng #2 at{" "}
-        <a
-          href="https://www.extend.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-cyan underline hover:text-cyan-dim"
-        >
-          Extend AI
-        </a>{" "}
-        (YC W23)
-      </p>
-
-      <Image
-        src="/ishaan.jpg"
-        alt="Ishaan Agrawal"
-        width={320}
-        height={427}
-        className="rounded-lg mb-2 w-48 sm:w-56"
-        priority
-      />
-      <p className="text-[11px] text-muted leading-relaxed mb-6 max-w-sm">
-        Currently working on a challenge to complete all 4,000 LeetCode
-        problems!{" "}
-        <a
-          href="https://www.linkedin.com/in/ishaan-agrawal/recent-activity/all/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-cyan hover:underline"
-        >
-          Latest progress update
-        </a>
-      </p>
+      <div className="mb-6">
+        <Image
+          src="/ishaan.jpg"
+          alt="Ishaan Agrawal"
+          width={1220}
+          height={740}
+          className="rounded-lg mb-2 w-full max-w-md"
+          unoptimized
+          priority
+        />
+        <p className="text-[11px] text-muted leading-relaxed max-w-sm">
+          Currently working on a challenge to complete all 4,000 LeetCode
+          problems!{" "}
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7427783853785927680/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:underline"
+          >
+            Latest progress update
+          </a>
+        </p>
+      </div>
 
       <div className="space-y-3">
         <div className="border-l-2 border-border pl-3">
