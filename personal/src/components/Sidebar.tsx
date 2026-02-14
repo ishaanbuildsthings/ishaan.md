@@ -12,13 +12,13 @@ export default function Sidebar() {
           >
             Extend AI
           </a>{" "}
-          (YC W23). Self-taught engineer ;)
+          (YC W23). Self-taught engineer;)
         </p>
       </div>
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>Guinness World Record</strong> at solving a Rubik&apos;s Cube blindfolded
+          <strong>Guinness World Record</strong> for solving a Rubik&apos;s Cube blindfolded
           (22.67s) —{" "}
           <a
             href="https://www.youtube.com/watch?v=N8MNEngonTs"
@@ -75,7 +75,7 @@ export default function Sidebar() {
           >
             OCR Arena
           </a>
-          , public leaderboard for anonymous OCR models and VLMs — viral on{" "}
+          , a public leaderboard for anonymous OCR models and VLMs — viral on{" "}
           <a
             href="https://www.reddit.com/r/LocalLLaMA/comments/1p35f2c/i_made_a_free_playground_for_comparing_10_ocr/"
             target="_blank"
@@ -107,7 +107,7 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          Former professional poker player — +4bb/100 win rate at high
+          Former professional poker player, +4bb/100 win rate at high
           stakes online, trained under the #2 player in the world
         </p>
       </div>
@@ -136,9 +136,9 @@ export default function Sidebar() {
 
       <div className="border-l-2 border-border pl-3">
         <p className="text-[13px] text-foreground leading-relaxed">
-          I enjoy algo trading in DeFi. I wrote a cross-blockchain arbitrage
+          I enjoy algo trading in defi. I wrote a cross-blockchain arbitrage
           trading bot. I also wrote the automated market maker at a
-          decentralized exchange. My code has processed{" "}
+          decentralized exchange, my code has processed{" "}
           <strong>~$9B of volume</strong>
         </p>
       </div>
