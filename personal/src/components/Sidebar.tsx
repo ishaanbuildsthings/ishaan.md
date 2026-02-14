@@ -130,7 +130,7 @@ export default function Sidebar() {
           </a>{" "}
           — owned 50+ cell phones, sold to doctors, lawyers, and even a{" "}
           <strong>top-10 worldwide music artist</strong>! Perfect 5.0 rating over 5,000+
-          sales, ~500k net profit
+          sales, ~300k net profit
         </p>
       </div>
 

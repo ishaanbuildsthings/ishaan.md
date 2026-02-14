@@ -22,6 +22,10 @@ export default function MathPuzzle() {
             Design a strategy such that we always hit the ship, or prove it is
             impossible.
           </p>
+          <p className="text-[13px] text-foreground leading-relaxed mt-3">
+            <strong>Follow up:</strong> What if the ship starts with an unknown
+            integer acceleration?
+          </p>
           <p className="text-[13px] text-muted mt-3">
             email solutions to:{" "}
             <a
