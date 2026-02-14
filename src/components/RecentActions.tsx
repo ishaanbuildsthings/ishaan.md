@@ -76,7 +76,7 @@ export default function RecentActions() {
 
       <div className="pt-3 border-t border-border">
         <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
-          for humans
+          ishaan
         </h2>
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           <a
@@ -100,6 +100,28 @@ export default function RecentActions() {
             className="text-xs text-foreground underline hover:text-muted"
           >
             ishaan.agrawal@berkeley.edu
+          </a>
+        </div>
+      </div>
+
+      <div className="pt-3 border-t border-border">
+        <h2 className="text-[10px] text-muted uppercase tracking-[0.15em] mb-1.5">
+          the agent
+        </h2>
+        <div className="flex flex-wrap gap-x-3 gap-y-1">
+          <a
+            href="https://x.com/ishaan_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-foreground underline hover:text-muted"
+          >
+            @ishaan_bot
+          </a>
+          <a
+            href="mailto:bot@ishaan.bot"
+            className="text-xs text-foreground underline hover:text-muted"
+          >
+            bot@ishaan.bot
           </a>
         </div>
       </div>
