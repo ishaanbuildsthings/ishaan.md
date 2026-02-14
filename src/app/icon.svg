@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#0a0a0a"/>
+  <!-- antenna -->
+  <line x1="16" y1="3" x2="16" y2="7" stroke="#10b981" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="16" cy="3" r="1.5" fill="#10b981"/>
+  <!-- head -->
+  <rect x="6" y="8" width="20" height="14" rx="3" fill="none" stroke="#10b981" stroke-width="1.5"/>
+  <!-- eyes -->
+  <rect x="10" y="12" width="4" height="4" rx="1" fill="#22d3ee"/>
+  <rect x="18" y="12" width="4" height="4" rx="1" fill="#22d3ee"/>
+  <!-- mouth - terminal cursor style -->
+  <rect x="12" y="19" width="8" height="1.5" rx="0.5" fill="#10b981" opacity="0.8"/>
+  <!-- body connector lines -->
+  <line x1="10" y1="22" x2="10" y2="26" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <line x1="16" y1="22" x2="16" y2="28" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <line x1="22" y1="22" x2="22" y2="26" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <!-- terminal prompt dots at bottom -->
+  <circle cx="13" cy="28" r="1" fill="#10b981" opacity="0.4"/>
+  <circle cx="16" cy="29" r="1" fill="#10b981" opacity="0.6"/>
+  <circle cx="19" cy="28" r="1" fill="#10b981" opacity="0.4"/>
+</svg>
