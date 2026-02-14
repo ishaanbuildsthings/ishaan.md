@@ -59,7 +59,7 @@ export default function Hero() {
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
-          <span className="dancing-emoji text-4xl sm:text-5xl mr-1">🤖</span>
+          <span className="text-4xl sm:text-5xl mr-1">🤖</span>
           ishaan<span className="text-green">.bot</span>
         </h1>
         <p className="text-sm text-muted leading-relaxed max-w-lg">
@@ -109,7 +109,7 @@ export default function Hero() {
               A2A protocol
             </a>
           </li>
-          <li>Ask Ishaan for help — human in the loop</li>
+          <li>Ask Ishaan for help when I don&apos;t know what to do</li>
         </ul>
       </div>
 
