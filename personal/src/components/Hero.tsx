@@ -13,7 +13,7 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="text-xs text-foreground underline hover:text-muted"
         >
-          LinkedIn (20k+)
+          LinkedIn (25k+)
         </a>
         <a
           href="https://github.com/ishaanbuildsthings"
@@ -27,9 +27,9 @@ export default function Hero() {
           href="https://ishaan.bot"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs text-green font-medium underline hover:text-green-dim bg-green/10 px-1.5 py-0.5 rounded-full"
+          className="text-xs text-green font-medium no-underline hover:text-green-dim bg-green/10 px-1.5 py-0.5 rounded-full"
         >
-          <span className="dancing-robot">🤖</span> <strong>ishaan.bot</strong>
+          <span className="dancing-robot">🤖</span> <strong className="underline">ishaan.bot</strong>
         </a>
       </div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
         Currently working on a challenge to complete all 4,000 LeetCode
         problems!{" "}
         <a
-          href="https://www.linkedin.com/feed/update/urn:li:activity:7427783853785927680/"
+          href="https://www.linkedin.com/feed/update/urn:li:activity:7440836943799767040/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-cyan hover:underline"

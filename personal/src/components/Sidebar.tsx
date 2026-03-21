@@ -1,147 +1,168 @@
+import Image from "next/image";
+
 export default function Sidebar() {
+
   return (
-    <div className="space-y-3">
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          Eng #2 at{" "}
-          <a
-            href="https://www.extend.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan underline hover:text-cyan-dim"
-          >
-            Extend AI
-          </a>{" "}
-          (YC W23). Self-taught engineer;)
-        </p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {/* Achievements */}
+      <div className="space-y-3">
+        <h2 className="text-xs font-bold text-muted uppercase tracking-wider mb-3">
+          Achievements
+        </h2>
+
+        <div className="border-l-2 border-border pl-3">
+          <p className="text-[13px] text-foreground leading-relaxed">
+            <strong>Guinness World Record</strong> for solving a Rubik&apos;s
+            Cube blindfolded (22.67s) —{" "}
+            <a
+              href="https://www.youtube.com/watch?v=N8MNEngonTs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              video
+            </a>{" "}
+          </p>
+          <div className="mt-2">
+            <Image
+              src="/cert.jpg"
+              alt="Guinness World Record Certificate"
+              width={300}
+              height={200}
+              className="rounded-md max-w-[200px]"
+              unoptimized
+            />
+          </div>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <p className="text-[13px] text-foreground leading-relaxed">
+            <strong>Top 99.95%</strong> ranked competitive coder, &gt;4000 problems solved
+          </p>
+          <div className="text-[12px] text-muted mt-1 space-y-0.5">
+            <div>
+              <a
+                href="https://leetcode.com/u/leetgoat_dot_io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan hover:underline"
+              >
+                LeetCode
+              </a>{" "}
+              — 2778 elo
+            </div>
+            <div>
+              <a
+                href="https://codeforces.com/profile/leetgoat_dot_dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan hover:underline"
+              >
+                Codeforces
+              </a>{" "}
+              — 1649 elo
+            </div>
+          </div>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <p className="text-[13px] text-foreground leading-relaxed">
+            <strong>Former rank #1</strong> in the world at competitive Pokemon
+            Go Battle League
+          </p>
+        </div>
+
+        <p className="text-[11px] italic text-muted">yes i am very competitive</p>
       </div>
 
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>Guinness World Record</strong> for solving a Rubik&apos;s Cube blindfolded
-          (22.67s) —{" "}
-          <a
-            href="https://www.youtube.com/watch?v=N8MNEngonTs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            video
-          </a>
-        </p>
+      {/* Work */}
+      <div className="space-y-3">
+        <h2 className="text-xs font-bold text-muted uppercase tracking-wider mb-3">
+          Work
+        </h2>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">Software Engineer</p>
+            <p className="text-[11px] text-muted">2024 — present</p>
+          </div>
+          <p className="text-[13px] text-foreground leading-relaxed">
+            Eng #2 at{" "}
+            <a
+              href="https://www.extend.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              Extend AI
+            </a>{" "}
+            (YC W23). Self-taught engineer;)
+          </p>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">Blockchain Engineer</p>
+            <p className="text-[11px] text-muted">2023 — 2024</p>
+          </div>
+          <p className="text-[13px] text-foreground leading-relaxed">
+            Cross-blockchain arbitrage, trading bots, and automated market
+            making — my code has processed <strong>~$9B of volume</strong>
+          </p>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline">
+            <p className="text-[13px] text-foreground leading-relaxed">
+              taught myself how to code from youtube
+            </p>
+            <p className="text-[11px] text-muted">2022 — 2023</p>
+          </div>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">Pokemon Go Boosting Empire</p>
+            <p className="text-[11px] text-muted">2021 — 2022</p>
+          </div>
+          <p className="text-[13px] text-foreground leading-relaxed">
+            Owned 50+ cell phones, sold to doctors, lawyers, and even a{" "}
+            <strong>top-10 worldwide music artist</strong>. Perfect 5.0 rating,
+            5,000+ sales
+          </p>
+          <div className="mt-2">
+            <Image
+              src="/50phones.jpeg"
+              alt="50+ cell phones for Pokemon Go boosting"
+              width={600}
+              height={400}
+              className="rounded-md max-w-[250px]"
+              unoptimized
+            />
+          </div>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">Professional Poker</p>
+            <p className="text-[11px] text-muted">2019 — 2021</p>
+          </div>
+          <p className="text-[13px] text-foreground leading-relaxed">
+            Trained under the <strong>#2 player in the world</strong>. Made a lot of money and met some interesting people.
+          </p>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">UC Berkeley, Haas</p>
+            <p className="text-[11px] text-muted">2015 — 2019</p>
+          </div>
+          <p className="text-[11px] italic text-muted">
+            i did not like business school
+          </p>
+        </div>
       </div>
 
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>Top 99.95%</strong> ranked competitive programmer —{" "}
-          <a
-            href="https://leetcode.com/u/leetgoat_dot_io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            LeetCode
-          </a>{" "}
-          (~2778 Elo) &middot;{" "}
-          <a
-            href="https://github.com/ishaanbuildsthings/leetcode/tree/main/templates"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            data structure templates
-          </a>{" "}
-          &middot;{" "}
-          <a
-            href="https://leetgoat.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            leetgoat.io
-          </a>{" "}
-          (240 stars)
-        </p>
-      </div>
-
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          Creator of{" "}
-          <a
-            href="https://ocrarena.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            OCR Arena
-          </a>
-          , a public leaderboard for anonymous OCR models and VLMs — viral on{" "}
-          <a
-            href="https://www.reddit.com/r/LocalLLaMA/comments/1p35f2c/i_made_a_free_playground_for_comparing_10_ocr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            Reddit
-          </a>
-          ,{" "}
-          <a
-            href="https://news.ycombinator.com/item?id=46006104"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            Hacker News
-          </a>
-          ,{" "}
-          <a
-            href="https://www.linkedin.com/posts/ishaan-agrawal_i-just-built-ocr-arena-from-scratch-its-activity-7397697481938980864-5tAq"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            LinkedIn
-          </a>
-        </p>
-      </div>
-
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          Former professional poker player, +4bb/100 win rate at high
-          stakes online, trained under the #2 player in the world
-        </p>
-      </div>
-
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>Former rank #1</strong> in the world at competitive Pokemon Go Battle League
-        </p>
-      </div>
-
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          <a
-            href="https://www.linkedin.com/posts/ishaan-agrawal_i-used-to-boost-pokemon-go-accounts-for-a-activity-7388631643449778176-puxf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan hover:underline"
-          >
-            Ran a Pokemon Go boosting farm
-          </a>{" "}
-          — owned 50+ cell phones, sold to doctors, lawyers, and even a{" "}
-          <strong>top-10 worldwide music artist</strong>! Perfect 5.0 rating over 5,000+
-          sales, ~300k net profit
-        </p>
-      </div>
-
-      <div className="border-l-2 border-border pl-3">
-        <p className="text-[13px] text-foreground leading-relaxed">
-          I enjoy algo trading in defi. I wrote a cross-blockchain arbitrage
-          trading bot. I also wrote the automated market maker at a
-          decentralized exchange, my code has processed{" "}
-          <strong>~$9B of volume</strong>
-        </p>
-      </div>
     </div>
   );
 }
