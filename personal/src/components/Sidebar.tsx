@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="flex flex-col">
       <div className="hidden lg:block mb-8">
         <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>IMPORTANT MESSAGE!</strong> In 2024 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
+          <strong>IMPORTANT MESSAGE!</strong> In 2025 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
         </p>
         <p className="text-[13px] text-foreground leading-relaxed">
           <span className="font-bold text-muted">In progress:</span> Running ~30 miles / week (to reduce inflammation), sleeping better, and appreciating small things:)
@@ -136,7 +136,7 @@ export default function Sidebar() {
             <p className="text-[13px] text-foreground leading-relaxed">
               taught myself how to code from youtube
             </p>
-            <p className="text-[11px] text-muted">2022 — 2023</p>
+            <p className="text-[11px] text-muted shrink-0">2022 — 2023</p>
           </div>
         </div>
 
@@ -186,7 +186,7 @@ export default function Sidebar() {
     </div>
       <div className="lg:hidden mt-8">
         <p className="text-[13px] text-foreground leading-relaxed">
-          <strong>IMPORTANT MESSAGE!</strong> In 2024 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
+          <strong>IMPORTANT MESSAGE!</strong> In 2025 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
         </p>
         <p className="text-[13px] text-foreground leading-relaxed">
           <span className="font-bold text-muted">In progress:</span> Running ~30 miles / week (to reduce inflammation), sleeping better, and appreciating small things:)
