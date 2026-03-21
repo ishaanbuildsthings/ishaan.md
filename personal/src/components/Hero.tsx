@@ -38,7 +38,7 @@ export default function Hero() {
         alt="Ishaan Agrawal"
         width={1280}
         height={1706}
-        className="rounded-lg mb-2 w-full"
+        className="rounded-lg mb-2 w-full lg:w-full max-h-[300px] lg:max-h-none object-cover object-[center_40%]"
         unoptimized
         priority
       />

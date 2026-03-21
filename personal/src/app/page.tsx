@@ -8,12 +8,15 @@ export default function Home() {
       <main className="h-full flex flex-col lg:flex-row gap-8 lg:gap-16 p-6 sm:p-8 lg:p-12 max-w-[1400px] mx-auto py-12 sm:py-16 lg:py-0 lg:min-h-screen">
         <div className="lg:w-80 shrink-0 flex flex-col lg:justify-center">
           <Hero />
-          <div className="mt-6">
+          <div className="mt-6 hidden lg:block">
             <MathPuzzle />
           </div>
         </div>
         <div className="flex-1 flex flex-col justify-center min-w-0">
           <Sidebar />
+          <div className="mt-6 lg:hidden">
+            <MathPuzzle />
+          </div>
         </div>
       </main>
     </div>

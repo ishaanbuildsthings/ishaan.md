@@ -3,6 +3,15 @@ import Image from "next/image";
 export default function Sidebar() {
 
   return (
+    <div className="flex flex-col">
+      <div className="hidden lg:block mb-8">
+        <p className="text-[13px] text-foreground leading-relaxed">
+          <strong>IMPORTANT MESSAGE!</strong> In 2024 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
+        </p>
+        <p className="text-[13px] text-foreground leading-relaxed">
+          <span className="font-bold text-muted">In progress:</span> Running ~30 miles / week (to reduce inflammation), sleeping better, and appreciating small things:)
+        </p>
+      </div>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* Achievements */}
       <div className="space-y-3">
@@ -61,6 +70,17 @@ export default function Sidebar() {
                 Codeforces
               </a>{" "}
               — 1649 elo
+            </div>
+            <div>
+              <a
+                href="https://github.com/ishaanbuildsthings/leetcode"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan hover:underline"
+              >
+                4000+ solutions
+              </a>{" "}
+              (250+ stars)
             </div>
           </div>
         </div>
@@ -163,6 +183,15 @@ export default function Sidebar() {
         </div>
       </div>
 
+    </div>
+      <div className="lg:hidden mt-8">
+        <p className="text-[13px] text-foreground leading-relaxed">
+          <strong>IMPORTANT MESSAGE!</strong> In 2024 I was diagnosed with an autoimmune disease (Crohn&apos;s) which almost killed me. Completely changed my perspective on life. Things I value more now: health, spending time with family, and living slowly.
+        </p>
+        <p className="text-[13px] text-foreground leading-relaxed">
+          <span className="font-bold text-muted">In progress:</span> Running ~30 miles / week (to reduce inflammation), sleeping better, and appreciating small things:)
+        </p>
+      </div>
     </div>
   );
 }
