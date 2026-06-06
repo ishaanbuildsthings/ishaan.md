@@ -58,7 +58,7 @@ export default function Sidebar() {
               >
                 LeetCode
               </a>{" "}
-              — 2778 elo
+              — peak 2778 elo
             </div>
             <div>
               <a
@@ -69,7 +69,7 @@ export default function Sidebar() {
               >
                 Codeforces
               </a>{" "}
-              — 1649 elo
+              — peak 1771 elo
             </div>
             <div>
               <a
