@@ -103,8 +103,25 @@ export default function Sidebar() {
 
         <div className="border-l-2 border-border pl-3">
           <div className="flex justify-between items-baseline mb-0.5">
+            <p className="text-[13px] font-bold text-foreground">Member of Technical Staff</p>
+            <p className="text-[11px] text-muted">June 2026 — present</p>
+          </div>
+          <p className="text-[13px] text-foreground leading-relaxed">
+            <a
+              href="https://www.etched.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan hover:underline"
+            >
+              Etched
+            </a>
+          </p>
+        </div>
+
+        <div className="border-l-2 border-border pl-3">
+          <div className="flex justify-between items-baseline mb-0.5">
             <p className="text-[13px] font-bold text-foreground">Software Engineer</p>
-            <p className="text-[11px] text-muted">2024 — present</p>
+            <p className="text-[11px] text-muted">2024 — April 2026</p>
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
             Eng #2 at{" "}
@@ -116,7 +133,7 @@ export default function Sidebar() {
             >
               Extend AI
             </a>{" "}
-            (YC W23). Self-taught engineer;)
+            (YC W23). Self-taught engineer!
           </p>
         </div>
 
