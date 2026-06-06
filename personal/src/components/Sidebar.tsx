@@ -138,7 +138,7 @@ export default function Sidebar() {
 
         <div className="border-l-2 border-border pl-3">
           <div className="flex justify-between items-baseline mb-0.5">
-            <p className="text-[13px] font-bold text-foreground">Blockchain Engineer</p>
+            <p className="text-[13px] font-bold text-foreground">Blockchain Engineer (Various)</p>
             <p className="text-[11px] text-muted">2023 — 2024</p>
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
