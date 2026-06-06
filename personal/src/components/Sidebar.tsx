@@ -143,8 +143,8 @@ export default function Sidebar() {
             <p className="text-[11px] text-muted">2023 — 2024</p>
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
-            Cross-blockchain arbitrage, trading bots, and automated market
-            making — my AMM code has processed <strong>~$9B of volume</strong>
+            Cross-blockchain arbitrage and automated market making — my AMM
+            code has processed <strong>~$9B of volume</strong>
           </p>
         </div>
 
