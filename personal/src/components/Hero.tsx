@@ -13,7 +13,7 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="text-xs text-foreground underline hover:text-muted"
         >
-          LinkedIn (25k+)
+          LinkedIn (30k+)
         </a>
         <a
           href="https://github.com/ishaanbuildsthings"
