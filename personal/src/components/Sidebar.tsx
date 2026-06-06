@@ -46,7 +46,7 @@ export default function Sidebar() {
 
         <div className="border-l-2 border-border pl-3">
           <p className="text-[13px] text-foreground leading-relaxed">
-            <strong>Top 99.95%</strong> ranked competitive coder, &gt;4000 problems solved
+            <strong>Competitive Programming</strong>
           </p>
           <div className="text-[12px] text-muted mt-1 space-y-0.5">
             <div>
@@ -58,7 +58,7 @@ export default function Sidebar() {
               >
                 LeetCode
               </a>{" "}
-              — peak 2778 elo
+              (top 99.95%) — peak 2778 elo
             </div>
             <div>
               <a
