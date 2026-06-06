@@ -183,7 +183,7 @@ export default function Sidebar() {
             <p className="text-[11px] text-muted">2019 — 2021</p>
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
-            Trained under the <strong>#2 player in the world</strong>. Made a lot of money and met some interesting people.
+            Trained under the <strong>#2 player in the world</strong>. Met some interesting people.
           </p>
         </div>
 
