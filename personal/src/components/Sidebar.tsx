@@ -163,9 +163,8 @@ export default function Sidebar() {
             <p className="text-[11px] text-muted">2021 — 2022</p>
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
-            Owned 50+ cell phones, sold to doctors, lawyers, and even a{" "}
-            <strong>top-10 worldwide music artist</strong>. Perfect 5.0 rating,
-            5,000+ sales
+            Owned 50+ cell phones, sold to doctors and lawyers. Perfect 5.0
+            rating, 5,000+ sales
           </p>
           <div className="mt-2">
             <Image
