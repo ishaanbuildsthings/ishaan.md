@@ -127,7 +127,7 @@ export default function Sidebar() {
           </div>
           <p className="text-[13px] text-foreground leading-relaxed">
             Cross-blockchain arbitrage, trading bots, and automated market
-            making — my code has processed <strong>~$9B of volume</strong>
+            making — my AMM code has processed <strong>~$9B of volume</strong>
           </p>
         </div>
 
