@@ -58,7 +58,7 @@ export default function Sidebar() {
               >
                 LeetCode
               </a>{" "}
-              (top 99.95%) — peak 2778 elo
+              — peak 2778 elo (top 99.95%)
             </div>
             <div>
               <a
