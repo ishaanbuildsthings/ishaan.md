@@ -92,7 +92,6 @@ export default function Sidebar() {
           </p>
         </div>
 
-        <p className="text-[11px] italic text-muted">yes i am very competitive</p>
       </div>
 
       {/* Work */}
